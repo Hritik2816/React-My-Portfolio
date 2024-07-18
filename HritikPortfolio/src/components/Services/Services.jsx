@@ -1,54 +1,9 @@
-import { BsFillMoonStarsFill } from 'react-icons/bs'
-import './App.css'
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
-import ImageComponent from './AllImages/ImageComponent'
-import DesignImage from './AllImages/DesignImage'
-import CodeImage from './AllImages/CodeImage'
-import ConsultingImage from './AllImages/ConsultingImage'
-import Web3 from './AllImages/Web3'
-import Web2 from './AllImages/Web2'
-import Web1 from './AllImages/Web1'
-import Web4 from './AllImages/Web4'
-import Web5 from './AllImages/Web5'
-import Web6 from './AllImages/Web6'
+import React from 'react'
+import { DesignImage, CodeImage, ConsultingImage, Web1, Web2, Web3, Web4, Web5, Web6 } from '../../AllImages/Index'
 
-
-
-
-
-
-function App() {
-
-
+export default function Services() {
   return (
     <>
-      <section className='min-h-screen' >
-        <nav className='py-10 mb-12 flex justify-between'>
-          <h1 className='text-xl font-burtons'>Developed by Hritik</h1>
-          <ul className='flex items-center'>
-            <li>
-              <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
-            </li>
-            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white px-4 py-2 ml-8 rounded-md' href="#">Resume</a></li>
-          </ul>
-        </nav>
-        <div className="text-center p-10">
-          <h2 className='text-5xl py-2 text-teal-600 font-medium'>Hritik Kumar</h2>
-          <h3 className='text-2xl py-2'>Developer and designer.</h3>
-          <p className='text-md py-5 leading-8 text-gray-800'>
-            Hello! I'm Hritik Kumar, a passionate and dedicated With a strong foundation in programming, I've developed a versatile skill set that includes proficiency in ReactJS, JavaScript, HTML, and CSS, allowing me to craft innovative and dynamic web applications. Further more, I have a solid understanding of Java and C programming languages, which has enabled me to tackle complex problems and develop efficient solutions. My enthusiasm for coding and ability to learn quickly has driven me to explore new technologies and stay updated with industry trends. I'm excited to leverage my skills and knowledge to make a meaningful impact in the tech industry and contribute to developing innovative solutions that can transform lives.
-          </p>
-        </div>
-        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-          <AiFillTwitterCircle />
-          <AiFillLinkedin />
-          <AiFillYoutube />
-        </div>
-        <div className='bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mx-auto items-center overflow-hidden'>
-          <ImageComponent src={Image} layout="fill" objectFit="cover" />
-        </div>
-      </section>
-
       <section>
         <div>
           <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
@@ -177,5 +132,3 @@ function App() {
     </>
   )
 }
-
-export default App

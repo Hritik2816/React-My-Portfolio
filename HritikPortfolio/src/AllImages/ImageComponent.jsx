@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from '../Image/dev-ed-wave.png'
+import Image from '../Image/HritikProfile.jpg'
 
 const ImageComponent = () => {
   const [imageUrl, setImageUrl] = useState('');
