@@ -11,6 +11,10 @@ import Services from './components/Services/Services.jsx'
 import User from './components/User/User.jsx'
 import Github, { githubInfoLoader } from './components/Github/Github.jsx'
 import Resume from './components/Resume/Resume.jsx'
+import ThemeBtn from './components/ThemeBtn/ThemeBtn.jsx'
+
+
+
 
 // React Router 
 // const router = createBrowserRouter([
@@ -37,6 +41,7 @@ import Resume from './components/Resume/Resume.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
+      <Route path='toggle' element={<ThemeBtn />} />
       <Route path="" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />

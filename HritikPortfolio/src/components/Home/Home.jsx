@@ -9,18 +9,18 @@ import { ImageComponent } from '../../AllImages/Index'
 
 export default function Home() {
   return (
-    <div className="mx-auto w-full max-w-7xl">
+    <div className="mx-auto w-full max-w-7xl dark:bg-gray-800 dark:border-gray-700">
       <section className='min-h-screen' >
         <nav className='py-10 mb-12 flex justify-between'>
-          <h1 className='text-xl font-burtons'>Developed by Hritik</h1>
+          <h1 className='text-xl font-burtons dark:text-white'>Developed by Hritik</h1>
         </nav>
         <div className="text-center p-10">
-          <h2 className='text-5xl py-2 text-teal-600 font-medium'>Hritik Kumar</h2>
-          <h3 className='text-2xl py-2'>Developer and designer.</h3>
+          <h2 className='text-5xl py-2 text-teal-600 font-medium '>Hritik Kumar</h2>
+          <h3 className='text-2xl py-2 dark:text-white'>Developer and designer.</h3>
           <Link
             to="/">
           </Link>
-          <p className='text-md py-5 leading-8 text-gray-800'>
+          <p className='text-md py-5 leading-8 text-gray- dark:text-white'>
             Hello! I'm Hritik Kumar, a passionate and dedicated With a strong foundation in programming, I've developed a versatile skill set that includes proficiency in ReactJS, JavaScript, HTML, and CSS, allowing me to craft innovative and dynamic web applications. Further more, I have a solid understanding of Java and C programming languages, which has enabled me to tackle complex problems and develop efficient solutions. My enthusiasm for coding and ability to learn quickly has driven me to explore new technologies and stay updated with industry trends. I'm excited to leverage my skills and knowledge to make a meaningful impact in the tech industry and contribute to developing innovative solutions that can transform lives.
           </p>
         </div>

@@ -14,10 +14,15 @@ function Github() {
   // }, [])
 
   return (
-    <div className='text-center m-4 bg-gray-600 text-white p-4 text-3xl'>Github followers: {data.followers}
-      <Link to="https://github.com/Hritik2816">
+    <div className='text-center m-4 bg-gray-600 text-white p-4 text-3xl dark:bg-gray-800 dark:border-gray-700'>Github followers: {data.followers}
+      <a
+        href="https://github.com/Hritik2816"
+        className="hover:underline"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img src={data.avatar_url} alt="Git picture" width={300} />
-      </Link>
+      </a>
     </div >
   )
 }
