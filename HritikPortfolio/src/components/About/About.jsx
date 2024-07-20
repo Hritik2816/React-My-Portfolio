@@ -1,4 +1,5 @@
 import React from 'react'
+import ImageComponent from '../../AllImages/ImageComponent';
 
 export default function About() {
   return (
@@ -6,10 +7,9 @@ export default function About() {
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
           <div className="md:5/12 lg:w-5/12">
-            <img
-              src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
-              alt="image"
-            />
+            <div className='bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mx-auto items-center overflow-hidden'>
+              <ImageComponent width={200} height={200} />
+            </div>
           </div>
           <div className="md:7/12 lg:w-6/12">
             <h2 className="text-3xl text-gray-900 font-bold md:text-4xl dark:text-white">

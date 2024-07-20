@@ -6,7 +6,7 @@ const ImageComponent = () => {
 
   return (
     <div>
-      <img src={Image} alt="My Image" className='w-70 h-60' />
+      <img src={Image} alt="My Image" className='w-100 h-100' />
     </div>
   );
 };

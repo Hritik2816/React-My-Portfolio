@@ -5,7 +5,6 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
-import { ImageComponent } from '../../AllImages/Index'
 
 export default function Home() {
   return (
@@ -21,7 +20,7 @@ export default function Home() {
             to="/">
           </Link>
           <p className='text-md py-5 leading-8 text-gray- dark:text-white'>
-            Hello! I'm Hritik Kumar, a passionate and dedicated With a strong foundation in programming, I've developed a versatile skill set that includes proficiency in ReactJS, JavaScript, HTML, and CSS, allowing me to craft innovative and dynamic web applications. Further more, I have a solid understanding of Java and C programming languages, which has enabled me to tackle complex problems and develop efficient solutions. My enthusiasm for coding and ability to learn quickly has driven me to explore new technologies and stay updated with industry trends. I'm excited to leverage my skills and knowledge to make a meaningful impact in the tech industry and contribute to developing innovative solutions that can transform lives.
+            Hello! I'm Hritik Kumar, a passionate and dedicated With a strong foundation in programming, <br />I've developed a versatile skill set that includes proficiency in ReactJS, JavaScript, HTML, and CSS,<br /> allowing me to craft innovative and dynamic web applications.
           </p>
         </div>
         <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -40,9 +39,6 @@ export default function Home() {
             className="hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-red-700 lg:p-0">
             <AiFillYoutube />
           </NavLink>
-        </div>
-        <div className='bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mx-auto items-center overflow-hidden'>
-          <ImageComponent width={100} height={100} />
         </div>
       </section>
 

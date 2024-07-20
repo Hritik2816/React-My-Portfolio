@@ -11,7 +11,7 @@ export default function Services() {
           programming and teaching.
         </p>
       </div>
-      <div className="lg:flex gap-10">
+      <div className="lg:flex gap-10 p-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
           <DesignImage width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2  ">
@@ -24,7 +24,6 @@ export default function Services() {
           <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
           <p className="text-gray-800 py-1">Photoshop</p>
           <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
           <p className="text-gray-800 py-1">Indesign</p>
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -37,10 +36,12 @@ export default function Services() {
             reality.
           </p>
           <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">Indesign</p>
+          <p className="text-gray-800 py-1">Reactjs</p>
+          <p className="text-gray-800 py-1">Tailwind</p>
+          <p className="text-gray-800 py-1">JavaScript</p>
+          <p className="text-gray-800 py-1">AppWrite</p>
+          <p className="text-gray-800 py-1">Html</p>
+
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
           <ConsultingImage width={100} height={100} />
@@ -49,22 +50,18 @@ export default function Services() {
             Are you interested in feedback for your current project? I can
             give you tips and tricks to level it up.
           </p>
-          <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">Indesign</p>
+          <h4 className="py-4 text-teal-600">Contact Us</h4>
+          <p className="text-gray-800 py-1">Linkedin</p>
+          <p className="text-gray-800 py-1">Instagram</p>
+          <p className="text-gray-800 py-1">Facebook</p>
+          <p className="text-gray-800 py-1">x</p>
         </div>
       </div>
       <div className="py-10 dark:text-white">
         <h3 className="text-3xl py-1 dark:text-grey ">Portofolio</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
           Since the beginning of my journey as a freelance designer and
-          developer, I've done remote work for
-          <span className="text-teal-500"> agencies </span>
-          consulted for <span className="text-teal-500">startups </span>
-          and collaborated with talanted people to create digital products
-          for both business and consumer use.
+          developer,
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
           I offer from a wide range of services, including brand design,

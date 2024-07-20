@@ -3,7 +3,7 @@ import Resume from '../Image/HritikkumarFresher.jpg'
 
 function ResumeHrk() {
   return (
-    <div>
+    <div className='flex justify-center p-40 w-100'>
       <img src={Resume} />
     </div>
   )
