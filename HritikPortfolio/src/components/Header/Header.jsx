@@ -1,24 +1,34 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import ThemeBtn from '../ThemeBtn/ThemeBtn';
+import MenuBar from '../Menu/Menu';
 
 
 
 export default function Header() {
   return (
     <header className="shadow-lg sticky z-50 top-0 ">
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 dark:border-gray-700">
+      <nav className=" bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 dark:border-gray-700">
+
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <div className="flex items-center">
-            <div
-              className="mr-3 h-12"
-            />
+          <div className="flex justify-center items-center">
+            <div className="mr-3 h-12 sm:hidden">
+              <MenuBar />
+            </div>
+          </div>
+          <div className=" flex justify-center items-center sm:hidden">
+            <ul >
+              <li>
+                <ThemeBtn />
+              </li>
+            </ul>
           </div>
           <div
-            className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+            className=" hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
             id="mobile-menu-2"
           >
             <ul className="flex flex-col mt-0 font-medium lg:flex-row lg:space-x-8 lg:mt-1">
+
               <li>
                 <NavLink
                   to="/"
