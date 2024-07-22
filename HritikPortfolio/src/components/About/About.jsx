@@ -7,7 +7,7 @@ export default function About() {
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
           <div className="md:5/12 lg:w-5/12">
-            <div className='bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mx-auto items-center overflow-hidden'>
+            <div className='bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mx-auto sm:w-50, sm:h-50 items-center overflow-hidden'>
               <ImageComponent width={200} height={200} />
             </div>
           </div>
