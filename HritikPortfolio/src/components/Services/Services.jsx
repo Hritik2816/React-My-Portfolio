@@ -3,16 +3,16 @@ import { DesignImage, CodeImage, ConsultingImage, Web1, Web2, Web3, Web4, Web5, 
 
 export default function Services() {
   return (
-    <div className='dark:bg-gray-800 dark:border-gray-700'>
+    <div className='dark:bg-white dark:border-white'>
       <div >
-        <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+        <h3 className="text-3xl py-1 text-white dark:text-gray-800 ">Services I offer</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
           I offer from a wide range of services, including brand design,
           programming and teaching.
         </p>
       </div>
       <div className="lg:flex gap-10 p-10">
-        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+        <div className="text-center shadow-xl p-10 rounded-xl my-10  dark:bg-white flex-1">
           <DesignImage width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2  ">
             Beautiful Designs
@@ -26,7 +26,7 @@ export default function Services() {
           <p className="text-gray-800 py-1">Illustrator</p>
           <p className="text-gray-800 py-1">Indesign</p>
         </div>
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+        <div className="text-center shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1">
           <CodeImage width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2 ">
             Code your dream project
@@ -43,7 +43,7 @@ export default function Services() {
           <p className="text-gray-800 py-1">Html</p>
 
         </div>
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+        <div className="text-center shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1">
           <ConsultingImage width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
           <p className="py-2">
@@ -58,12 +58,12 @@ export default function Services() {
         </div>
       </div>
       <div className="py-10 dark:text-white">
-        <h3 className="text-3xl py-1 dark:text-grey ">Portofolio</h3>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+        <h3 className="text-3xl py-1 text-white dark:text-gray-800 ">Portofolio</h3>
+        <p className="text-md py-2 leading-8 text-white dark:text-gray-800">
           Since the beginning of my journey as a freelance designer and
           developer,
         </p>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+        <p className="text-md py-2 leading-8 text-white dark:text-gray-800">
           I offer from a wide range of services, including brand design,
           programming and teaching.
         </p>

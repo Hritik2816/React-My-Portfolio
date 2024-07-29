@@ -10,7 +10,7 @@ const MenuBar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center py-4 bg-gray-700 dark:bg-gray-800 dark:border-gray-700 ">
+    <nav className="flex justify-between items-center py-4 bg-gray-700 dark:bg-white dark:border-white ">
       <div className="flex items-center 0" >
         <button
           className="ml-4 text-gray-500 hover:text-black focus:outline-none"

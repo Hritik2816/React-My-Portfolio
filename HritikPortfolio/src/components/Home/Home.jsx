@@ -8,18 +8,18 @@ import {
 
 export default function Home() {
   return (
-    <div className="mx-auto w-full max-w-7xl dark:bg-gray-800 dark:border-gray-700">
+    <div className="mx-auto w-full max-w-7xl dark:bg-white dark:border-white">
       <section className='min-h-screen' >
         <nav className='py-10 mb-12 flex justify-between'>
-          <h1 className='text-xl font-burtons dark:text-white'>Developed by Hritik</h1>
+          <h1 className='text-xl font-burtons text-white dark:text-gray-800'>Developed by Hritik</h1>
         </nav>
         <div className="text-center p-10">
           <h2 className='text-5xl py-2 text-teal-600 font-medium '>Hritik Kumar</h2>
-          <h3 className='text-2xl py-2 dark:text-white'>Developer and designer.</h3>
+          <h3 className='text-2xl py-2  text-white dark:text-gray-800'>Developer and designer.</h3>
           <Link
             to="/">
           </Link>
-          <p className='text-md py-5 leading-8 text-gray- dark:text-white'>
+          <p className='text-md py-5 leading-8 text-white dark:text-gray-800'>
             Hello! I'm Hritik Kumar, a passionate and dedicated With a strong foundation in programming, <br />I've developed a versatile skill set that includes proficiency in ReactJS, JavaScript, HTML, and CSS,<br /> allowing me to craft innovative and dynamic web applications.
           </p>
         </div>

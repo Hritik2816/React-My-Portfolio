@@ -8,7 +8,7 @@ import MenuBar from '../Menu/Menu';
 export default function Header() {
   return (
     <header className="shadow-lg sticky z-50 top-0 ">
-      <nav className=" bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 dark:border-gray-700">
+      <nav className=" bg-gray-800 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-white dark:border-white">
 
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <div className="flex justify-center items-center">
